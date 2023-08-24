@@ -119,6 +119,23 @@ body {
   margin-top: 5px;
 }
 
+.image {
+  position: relative;
+}
+
+.uploadSection {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  border-radius: 10px;
+  color: white;
+  background-color: hsl(244, 38%, 16%);
+}
+
+.uploadSection:hover {
+  background-color: hsl(248, 32%, 49%);
+}
+
 @media (max-width: 767px) {
   .card {
     width: 350px;
