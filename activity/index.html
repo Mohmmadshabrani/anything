@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+  <title>activities</title>
+
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./nav.css">
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <div class="content1">
+        <div class="logo">
+          <img src="../include/summer-jam-low-resolution-logo-black-on-transparent-background.png" alt="logo">
+        </div>
+        <ul class="links">
+          <li><a href="#">Howe </a></li>
+          <li><a href="#"> About</a> </li>
+          <li><a href="#"> Services</a> </li>
+        </ul>
+      </div>
+    </div>
+    <div class="card">
+      <div class="image">
+        <button style="display:block;width:120px; height:30px;" class="uploadSection"
+          onclick="document.getElementById('getFile').click()">Upload The File</button> <input type='file' id="getFile"
+          style="display:none" onchange="handleFileUpload(event)">
+      </div>
+            <form class="content">
+              <div class="name"><label for="form">Enter your name</label><br><input type="text" name="name" id="name" placeholder="Name"></div>              
+              <div class="name"><label for="form">Enter a title</label><br><input type="text" name="title" id="title" placeholder="Title"></div>
+              <div class="name"><label for="form">What did you do and how was it</label><br><textarea type="textarea" name="description" id="Description" placeholder="description"></textarea></div>
+              <div class="name"><label for="form">Add a category</label><br><input type="text" name="category" id="category" placeholder="Category"></div>              
+            </form>
+    </div>
+  </main>
+  <script defer src="main.js"></script>
+</body>
+
+</html>
+
+<div class="tools"></div>
+<div>
+  <div class="card">
+
+  </div>
